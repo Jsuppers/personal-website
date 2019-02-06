@@ -14,7 +14,7 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="static/Resume.pdf" target="_blank"><span className="icon fa-user"></span></a></li>
+                <li><a href="Resume.pdf" target="_blank"><span className="icon fa-user"></span></a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('publications')}}><span className="icon fa-book"></span></a></li>
             </ul>
         </nav>
